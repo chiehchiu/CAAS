@@ -7,11 +7,8 @@ Support LIDC-IDRI dataset(see `configs/lidc/`).
 
 ## Installation
 
-Please refer to [install.md](docs/install.md) for installation and dataset preparation.
+Please refer to [install.md](scripts/install.md) for installation and dataset preparation.
 
-## Getting Started
-
-Please see [getting_started.md](docs/getting_started.md) for the basic usage. There are also tutorials for [finetuning models](docs/tutorials/finetune.md), [adding new dataset](docs/tutorials/new_dataset.md), [designing data pipeline](docs/tutorials/data_pipeline.md), and [adding new modules](docs/tutorials/new_modules.md).
 
 ## Training
 
