@@ -14,10 +14,6 @@ for i in range(len(gt_labels)):
         labels[i][1]=1
     if gt_labels[i] == 0:
         labels[i][0]=1
-# len(outputs)
-# 249 samples; 48 sample per GPU
-# sample per GPU:48
-# 48,48,48,48,48,9
 
 y_score = scores
 y_test = labels
@@ -83,9 +79,7 @@ for i, color in zip(range(n_classes), colors):
              label='ROC curve of class {0} (area = {1:0.2f})'
              ''.format(i, roc_auc[i]))
     
-x = 0.78
-y = 0.7
-plt.scatter(x, y, marker = 'o',color = 'red', s = 50 ,label = 'Reader')
+plt.scatter(x, y, marker = 'o',color = 'red', s = 50 ,label = 'Reader')#(x,y) means Readers' performance
 plt.legend(loc = 'best')
 plt.plot([0, 1], [0, 1], 'k--', lw=lw)
 plt.xlim([0.0, 1.0])
