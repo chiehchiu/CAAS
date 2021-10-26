@@ -16,7 +16,7 @@ Please see [getting_started.md](docs/getting_started.md) for the basic usage. Th
 ## Training
 
 ```
-bash train.sh train
+bash scripts/train.sh train
 ```
 
 ## Benchmark and model zoo
